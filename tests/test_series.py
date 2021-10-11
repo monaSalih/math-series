@@ -50,3 +50,6 @@ def lucas_test3():
 
 def test_sum_series():
     assert sum_series(3, 4, 2) == 8
+
+def test_sum_series():
+    assert sum_series(5,5,5) == 40

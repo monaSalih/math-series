@@ -44,8 +44,9 @@ def lucas_test2():
 def lucas_test3():
     # input
     v=0
-    #output
+    #outputu
     lucasResult=2
     assert lucas(v)==lucasResult
 
-
+def test_sum_series():
+    assert sum_series(3, 4, 2) == 8

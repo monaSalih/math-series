@@ -16,8 +16,7 @@ def test_fibonacci2():
     # input
     v=2
     #output
-    fibonResult=1
-    assert fibonacci(v)==fibonResult
+    assert fibonacci(v)==1
 
 def test_fibonacci3():
     # input

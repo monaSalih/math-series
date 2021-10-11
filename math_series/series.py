@@ -16,4 +16,11 @@ def lucas(x):
 
 def sum_series(x,val1,val2):
     if n==0:
-        return x
+        return val1
+    if n==1:
+        return val2
+    return (sum_series(x-1)+sum_series(x-2))
+
+
+
+    

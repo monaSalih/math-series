@@ -14,7 +14,14 @@ def test_fibonacci1():
 
 def test_fibonacci2():
     # input
-    v=5
+    v=2
     #output
-    fibonResult=8
+    fibonResult=1
+    assert fibonacci(v)==fibonResult
+
+def test_fibonacci3():
+    # input
+    v=3
+    #output
+    fibonResult=2
     assert fibonacci(v)==fibonResult

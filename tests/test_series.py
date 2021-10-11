@@ -27,29 +27,29 @@ def test_fibonacci3():
     fibonResult=2
     assert fibonacci(v)==fibonResult
 
-def lucas_test1():
-    # input
-    v=3
-    #output
-    lucasResult=0
-    assert lucas(v)==lucasResult
+# def lucas_test1():
+#     # input
+#     v=3
+#     #output
+#     lucasResult=0
+#     assert lucas(v)==lucasResult
 
-def lucas_test2():
-    # input
-    v=5
-    #output
-    lucasResult=11
-    assert lucas(v)==lucasResult
+# def lucas_test2():
+#     # input
+#     v=5
+#     #output
+#     lucasResult=11
+#     assert lucas(v)==lucasResult
 
-def lucas_test3():
-    # input
-    v=0
-    #outputu
-    lucasResult=2
-    assert lucas(v)==lucasResult
+# def lucas_test3():
+#     # input
+#     v=0
+#     #outputu
+#     lucasResult=2
+#     assert lucas(v)==lucasResult
 
-def test_sum_series():
-    assert sum_series(3, 4, 2) == 8
+# def test_sum_series():
+#     assert sum_series(3, 4, 2) == 8
 
-def test_sum_series():
-    assert sum_series(5,5,5) == 40
+# def test_sum_series():
+#     assert sum_series(5,5,5) == 40

@@ -21,7 +21,7 @@ def test_fibonacci2():
 
 def test_fibonacci3():
     # input
-    v=3
+    v=0
     #output
     fibonResult=2
     assert fibonacci(v)==fibonResult
@@ -33,3 +33,9 @@ def lucas_test():
     lucasResult=0
     assert lucas(v)==lucasResult
 
+def lucas_test():
+    # input
+    v=3
+    #output
+    lucasResult=0
+    assert lucas(v)==lucasResult

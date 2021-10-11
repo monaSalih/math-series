@@ -35,7 +35,7 @@ def lucas_test():
 
 def lucas_test():
     # input
-    v=3
+    v=5
     #output
-    lucasResult=0
+    lucasResult=11
     assert lucas(v)==lucasResult
